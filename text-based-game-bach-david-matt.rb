@@ -147,27 +147,3 @@ elsif user_input == "van"
     end
 end 
 
-# if user_input1 == "bike" 
-#     while !["inside", "keep moving"].include? user_input do
-#         puts "You need to choose a path. Unless you want to die here."
-#         user_input = gets.downcase.chomp
-#     end
-#     if user_input.include? "inside"
-#         puts "You go inside and you notice it is a research facility."
-#     elsif user_input.include? "moving"
-#         puts "You continue riding and it now turns to nightfall. You and your companion become surrounded by grotesque monsters."
-#         puts "You have to decide to save your companion or not. What will you do?"
-#         user_input = gets.downcase.chomp
-#     end
-# elsif user_input2 == "van"
-#     while !["inside", "moving"].include? user_input2 do 
-#         puts "You need to choose a path. Unless you want to die here."
-#         user_input = gets.downcase.chomp
-#     end
-#     if user_input.include? "inside"
-#         puts "You go inside and you notice it is a research facility."
-#     elsif user_input.include? "moving"
-#         puts "You continue driving on. You and your companion both survive. However, your companion remains disfigured."
-#         puts "Congratulations. You have survived, but your companion is still disfigured... Try again."
-#     end
-# end
